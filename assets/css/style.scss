@@ -15,6 +15,13 @@
   /* No position absolute needed, flexbox will handle the positioning */
   order: 2; /* Ensures the logo is placed at the end of the container */
 }
+/* If the parent container is a flex container */
+.parent-container { /* Replace with the actual parent class or element */
+  display: flex;
+  justify-content: center; /* Centers horizontally in the flex container */
+  align-items: center; /* Centers vertically in the flex container */
+}
+
 .project-name {
   text-align: center; /* Centers the text within the element itself */
 }
