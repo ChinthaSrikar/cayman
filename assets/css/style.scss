@@ -2,12 +2,17 @@
 ---
 
 @import 'jekyll-theme-cayman';
+.page-header {
+  display: flex;
+  justify-content: space-between; /* Aligns items on the main axis */
+  align-items: center; /* Aligns items on the cross axis */
+}
+
 .logo {
-  height: 250px;  /* Adjust as per your preference */
-  width: 250px;   /* Ensure width and height are the same for a perfect circle */
-  border-radius: 50%; /* This creates the circle shape */
-  position: right; /* This allows you to position it anywhere */
-  top: 10px;  /* Distance from the top */
-  right: 10px;  /* Distance from the right */
+  height: 60px; /* Adjusted to fit the header */
+  width: 60px; /* Keep width the same as height for a circle */
+  border-radius: 50%; /* Circle shape */
+  /* No position absolute needed, flexbox will handle the positioning */
+  order: 2; /* Ensures the logo is placed at the end of the container */
 }
 
