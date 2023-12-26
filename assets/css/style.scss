@@ -9,8 +9,8 @@
 }
 
 .logo {
-  height: 60px; /* Adjusted to fit the header */
-  width: 60px; /* Keep width the same as height for a circle */
+  height: 250px; /* Adjusted to fit the header */
+  width: 250px; /* Keep width the same as height for a circle */
   border-radius: 50%; /* Circle shape */
   /* No position absolute needed, flexbox will handle the positioning */
   order: 2; /* Ensures the logo is placed at the end of the container */
