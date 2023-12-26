@@ -4,6 +4,10 @@
 @import 'jekyll-theme-cayman';
 .logo {
   height: 100px;  /* Adjust as per your preference */
-  width: auto;
-  // More styling here
+  width: 100px;   /* Ensure width and height are the same for a perfect circle */
+  border-radius: 50%; /* This creates the circle shape */
+  position: absolute; /* This allows you to position it anywhere */
+  top: 10px;  /* Distance from the top */
+  right: 10px;  /* Distance from the right */
 }
+
