@@ -15,4 +15,7 @@
   /* No position absolute needed, flexbox will handle the positioning */
   order: 2; /* Ensures the logo is placed at the end of the container */
 }
+.project-name {
+  text-align: center; /* Centers the text within the element itself */
+}
 
